@@ -31,3 +31,6 @@ app.listen(port, () => {
       .bgCyan.white
   );
 });
+app.get('/', (req, res) => {
+  res.send('API is running...');
+});
